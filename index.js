@@ -5,7 +5,7 @@ const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: false });
 client.login("TOKEN");
 const fetch = require("node-fetch");
-const fs = require('fs')
+const fs = require('fs');
 
 setInterval(() => {
   var links = db.get("linkler");
